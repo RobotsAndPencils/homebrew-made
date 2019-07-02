@@ -7,7 +7,7 @@ class Xcodes < Formula
   bottle do
     root_url 'https://github.com/RobotsAndPencils/xcodes/releases/download/0.6.0'
     cellar :any_skip_relocation
-    sha256 "d123dd3ca2d108268a6534d4a2a523fb1cfa856ad8f3edbf8555a90961b09a79" => :mojave
+    sha256 "f05d9bae064a9dc63488c07ce136acb592d1f252bec2604522231c069fef93b8" => :mojave
   end
 
   def install
