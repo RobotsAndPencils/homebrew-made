@@ -1,13 +1,13 @@
 class Xcodes < Formula
   desc "Manage the Xcodes installed on your Mac"
   homepage "https://github.com/RobotsAndPencils/xcodes"
-  url "https://github.com/RobotsAndPencils/xcodes.git", tag: "0.8.0"
+  url "https://github.com/RobotsAndPencils/xcodes.git", tag: "0.8.1"
   head "https://github.com/RobotsAndPencils/xcodes.git"
 
   bottle do
-    root_url 'https://github.com/RobotsAndPencils/xcodes/releases/download/0.8.0'
+    root_url 'https://github.com/RobotsAndPencils/xcodes/releases/download/0.8.1'
     cellar :any_skip_relocation
-    sha256 "f0b94d9092a76340168bd3910151fe034a05ee71a8ed10e4db2ee26cac3c47e6" => :mojave
+    sha256 "0c57ec389d1208e608ab50357d85a88a3b277cce2361775ee20d7394d8508594" => :mojave
   end
 
   def install
