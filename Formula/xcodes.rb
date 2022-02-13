@@ -2,7 +2,7 @@ class Xcodes < Formula
   desc "Install and switch between multiple versions of Xcode"
   homepage "https://github.com/RobotsAndPencils/xcodes"
   url "https://github.com/RobotsAndPencils/xcodes.git", tag: "0.19.0"
-  head "https://github.com/RobotsAndPencils/xcodes.git"
+  head "https://github.com/RobotsAndPencils/xcodes.git", branch: "main"
 
   bottle do
     root_url 'https://github.com/RobotsAndPencils/xcodes/releases/download/0.19.0'
