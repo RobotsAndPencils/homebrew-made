@@ -8,6 +8,8 @@ class Xcodes < Formula
     root_url 'https://github.com/RobotsAndPencils/xcodes/releases/download/0.20.0'
     sha256 cellar: :any_skip_relocation, mojave: "acd0717e5083634c472d17d7b041265f34b197164ecfcf513b812d77ff978c6d"
   end
+  
+  depends_on "aria2" => :recommended
 
   def install
     system "make", "install", "prefix=#{prefix}"
