@@ -1,13 +1,13 @@
 class Xcodes < Formula
   desc "Install and switch between multiple versions of Xcode"
   homepage "https://github.com/RobotsAndPencils/xcodes"
-  url "https://github.com/RobotsAndPencils/xcodes.git", tag: "1.1.0"
+  url "https://github.com/RobotsAndPencils/xcodes.git", tag: "1.2.0"
   head "https://github.com/RobotsAndPencils/xcodes.git", branch: "main"
 
   bottle do
-    root_url 'https://github.com/RobotsAndPencils/xcodes/releases/download/1.1.0'
-    sha256 cellar: :any_skip_relocation, mojave: "21a9c1c6d999623e92d1c9144c1bef9616509bcb5d60c0cd8603df5060b50713"
-    sha256 cellar: :any_skip_relocation, arm64_mojave: "21a9c1c6d999623e92d1c9144c1bef9616509bcb5d60c0cd8603df5060b50713"
+    root_url 'https://github.com/RobotsAndPencils/xcodes/releases/download/1.2.0'
+    sha256 cellar: :any_skip_relocation, mojave: "94b823a331daa11f526bf15873284d8c0dbd0843c334644397bec82708474bed"
+    sha256 cellar: :any_skip_relocation, arm64_mojave: "94b823a331daa11f526bf15873284d8c0dbd0843c334644397bec82708474bed"
   end
 
   def install
