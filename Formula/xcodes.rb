@@ -9,6 +9,8 @@ class Xcodes < Formula
     sha256 cellar: :any_skip_relocation, mojave: "f3908cec47dad544712e15133c713fde24f51ccd463aa582e856852be9bdb08e"
     sha256 cellar: :any_skip_relocation, arm64_mojave: "f3908cec47dad544712e15133c713fde24f51ccd463aa582e856852be9bdb08e"
   end
+  
+  depends_on "aria2" => :recommended
 
   def install
     system "make", "install", "prefix=#{prefix}"
